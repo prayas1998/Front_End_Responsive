@@ -1,0 +1,24 @@
+
+ADDING LINEAR GRADIENT TO A TEXT:
+-webkit-background-clip: text;
+    -webkit-text-fill-color:transparent;
+
+
+
+ ADDING SHADOW TO A PNG FILE:
+     filter: drop-shadow(0px 19px 13px black);
+   
+
+
+ADDING ANIMATIONS TO THE COVER IMAGE (LAPTOP)
+
+@keyframes drop{
+    0%{
+        opacity: 0;
+        transform: translateY(-80px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
